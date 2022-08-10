@@ -1,0 +1,50 @@
+* {
+  position: relative;
+}
+
+.calcButtons {
+  position: absolute;
+  display: flex;
+  width: 320px;
+  height: 420px;
+  flex-wrap: wrap;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.calcButtons button {
+  height: 70px;
+  width: 25%;
+  font-size: 30px;
+  padding: 0;
+  border: 1px solid gray;
+}
+
+
+.calcButtons h3{
+  height: 70px;
+  width: 100%;
+  margin: 0;
+  padding-top: 20px;
+  padding-right: 10px;
+  background-color: rgb(80, 83, 85);
+  font-size: 40px;
+  font-weight: 300;
+  text-align: right;
+  color: white;
+}
+
+.calcButtons :nth-child(18){
+  width: 50%;
+}
+
+.calcButtons :nth-child(5), .calcButtons :nth-child(9), .calcButtons :nth-child(13), .calcButtons :nth-child(17), .calcButtons :nth-child(20){
+  background-color: rgb(70, 202, 202);
+  border: 1px solid gray;
+}
+
+.calcButtons :nth-child(2), .calcButtons :nth-child(3), .calcButtons :nth-child(4){
+  background-color: rgb(236, 155, 50);
+  border: 1px solid gray;
+}
